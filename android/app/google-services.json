@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "630937084600",
+    "project_id": "bookly-app-ff124",
+    "storage_bucket": "bookly-app-ff124.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:630937084600:android:d91cf4478c6084553e4a4d",
+        "android_client_info": {
+          "package_name": "com.example.bookly_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCAksU1gRPomuXoNu14HJwdR908OSjM8Kg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

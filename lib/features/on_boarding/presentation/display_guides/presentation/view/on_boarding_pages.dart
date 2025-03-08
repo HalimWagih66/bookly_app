@@ -1,4 +1,4 @@
-import 'package:bookly_app/on_boarding/presentation/display_guides/presentation/view/widget/DisplayOnBoardingPages.dart';
+import 'package:bookly_app/features/on_boarding/presentation/display_guides/presentation/view/widget/DisplayOnBoardingPages.dart';
 import 'package:flutter/material.dart';
 
 class OnBoardingPages extends StatelessWidget {

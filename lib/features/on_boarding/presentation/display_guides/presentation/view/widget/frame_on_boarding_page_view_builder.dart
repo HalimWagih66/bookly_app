@@ -1,7 +1,7 @@
 import 'package:bookly_app/generated/assets.dart';
-import 'package:bookly_app/on_boarding/presentation/display_guides/model/frame_on_boarding_model.dart';
 import 'package:flutter/material.dart';
 
+import '../../../model/frame_on_boarding_model.dart';
 import 'on_boarding_page.dart';
 
 class OnBoardingPageViewBuilder extends StatelessWidget {
