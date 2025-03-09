@@ -86,4 +86,16 @@ class AuthRepoImpl implements AuthRepo {
     }
   }
 
+  @override
+  Future<Either<Failure, void>> resendEmailActive()async {
+    try{
+      await authServices.sendEmailVerification();
+      return right(null);
+    }on CustomException catch(e){
+      return left(ServerFailure(e.errorMessage));
+    }catch (e){
+      return left(ServerFailure(Sentence.somethingWentWrongPleaseTryAgain));
+    }
+  }
+
 }

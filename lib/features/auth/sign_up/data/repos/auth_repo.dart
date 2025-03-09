@@ -8,4 +8,5 @@ abstract class AuthRepo{
   Future<Either<Failure, UserModel>> signInByGoogle();
   Future<Either<Failure, bool>> resetPassword(String email);
   Future<Either<Failure, UserModel>> signUpByGoogle();
+  Future<Either<Failure, void>> resendEmailActive();
 }

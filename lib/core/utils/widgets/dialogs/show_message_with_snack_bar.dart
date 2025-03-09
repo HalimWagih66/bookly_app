@@ -6,7 +6,7 @@ ScaffoldFeatureController<SnackBar, SnackBarClosedReason> showMessageWithSnackBa
       SnackBar(
        backgroundColor: background,
        duration: const Duration(seconds: 5),
-       content: Text(message,style: themeApp.textStyle18(context).copyWith(color: themeApp.secondColor)),
+       content:Text(message,style: themeApp.textStyle18(context).copyWith(color: themeApp.secondColor)),
      ),
    );
 }

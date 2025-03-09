@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import '../../../../../../core/utils/widgets/questions/user_question_about_registration.dart';
 import '../../../../../../main.dart';
+import '../../../../log_in/view/login_view.dart';
 import '../../manager/sign_up_bloc/sign_up_bloc.dart';
 import 'display_registration_methods.dart';
 import 'form_sign_up.dart';
@@ -48,7 +49,7 @@ class SignUpViewBody extends StatelessWidget {
                  UserQuestionAboutRegistration(
                   questionText: "Already have an account?",
                   actionText: "Login",
-                  routeName: "LoginView.routeName",
+                  routeName: LoginView.routeName
                 ),
               ],
         ),

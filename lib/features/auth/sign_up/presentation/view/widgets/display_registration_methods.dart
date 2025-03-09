@@ -1,7 +1,9 @@
 import 'package:awesome_dialog/awesome_dialog.dart';
+import 'package:bookly_app/features/auth/log_in/view/login_view.dart';
 import 'package:bookly_app/generated/assets.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:go_router/go_router.dart';
 import '../../../../../../core/utils/widgets/dialogs/show_message_awesome_dialog.dart';
 import '../../../../../../core/utils/widgets/dialogs/show_message_with_snack_bar.dart';
 import '../../../../../../core/utils/widgets/loading/custom_hexagon_dots_loading.dart';
@@ -30,7 +32,9 @@ class DisplayRegistrationMethods extends StatelessWidget {
                 if(state is SignUpWithEmailAndPasswordFailure){
                   showMessageWithSnackBar(message: state.errorMessage, context: context,background: themeApp.primaryColor);
                 }else if(state is SignUpWithEmailAndPasswordSuccess){
-                  showMessageWithAwesomeDialog(message: "An email has been sent to your personal email. Go to your email immediately and activate your account.",title: "Success", dialogType: DialogType.success,context: context,okActionName: "Ok",btnOkOnPress: () {},);
+                  showMessageWithAwesomeDialog(message: "An email has been sent to your personal email. Go to your email immediately and activate your account.",title: "Success", dialogType: DialogType.success,context: context,okActionName: "Ok",btnOkOnPress: () {
+                    GoRouter.of(context).go(LoginView.routeName);
+                  },);
                 }
               },
               builder: (BuildContext context, SignUpState state) {
@@ -69,5 +73,3 @@ class DisplayRegistrationMethods extends StatelessWidget {
     );
   }
 }
-
-
