@@ -2,21 +2,11 @@
 class Assets {
   Assets._();
 
-  static const String generatedAssets = 'lib/generated/assets.dart';
+  static const String authAppleLogo = 'assets/images/auth/apple-logo.png';
+  static const String authGoogleLogo = 'assets/images/auth/google-logo.png';
   static const String imagesOnBoardingImage1 = 'assets/images/on_boarding_image_1.png';
   static const String imagesOnBoardingImage2 = 'assets/images/on_boarding_image_2.png';
   static const String imagesOnBoardingImage3 = 'assets/images/on_boarding_image_3.png';
   static const String imagesSplashScreen = 'assets/images/splash_screen.png';
-  static const String libBooklyApp = 'lib/bookly_app.dart';
-  static const String libMain = 'lib/main.dart';
-  static const String modelFrameOnBoardingModel = 'lib/on_boarding/presentation/display_guides/model/frame_on_boarding_model.dart';
-  static const String viewOnBoardingPages = 'lib/on_boarding/presentation/display_guides/presentation/view/on_boarding_pages.dart';
-  static const String widgetCustomElevatedButton = 'lib/on_boarding/presentation/display_guides/presentation/view/widget/custom_elevated_button.dart';
-  static const String widgetDisplayOnBoardingPages = 'lib/on_boarding/presentation/display_guides/presentation/view/widget/DisplayOnBoardingPages.dart';
-  static const String widgetDotItem = 'lib/on_boarding/presentation/display_guides/presentation/view/widget/dot_item.dart';
-  static const String widgetFrameOnBoardingPageViewBuilder = 'lib/on_boarding/presentation/display_guides/presentation/view/widget/frame_on_boarding_page_view_builder.dart';
-  static const String widgetListDots = 'lib/on_boarding/presentation/display_guides/presentation/view/widget/list_dots.dart';
-  static const String widgetOnBoardingMovingPart = 'lib/on_boarding/presentation/display_guides/presentation/view/widget/on_boarding_moving_part.dart';
-  static const String widgetOnBoardingPage = 'lib/on_boarding/presentation/display_guides/presentation/view/widget/on_boarding_page.dart';
 
 }
