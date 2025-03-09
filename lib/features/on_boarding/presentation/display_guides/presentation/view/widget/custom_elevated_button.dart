@@ -12,7 +12,7 @@ class CustomElevatedButton extends StatelessWidget {
           onPressed();
         },
         style: ElevatedButton.styleFrom(
-            padding: EdgeInsets.symmetric(vertical: 8.h,horizontal: 13.w),
+            padding: EdgeInsets.symmetric(vertical: 15.h,horizontal: 13.w),
             backgroundColor: background
         ),
         child: child);

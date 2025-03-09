@@ -7,15 +7,17 @@ abstract class ThemeApp{
      TextStyle textStyle30(BuildContext context);
      TextStyle textStyle14(BuildContext context);
      TextStyle textStyle16(BuildContext context);
-     static late Color primaryColor;
-     static late Color secondColor;
+     late Color primaryColor;
+     late Color secondColor;
 }
 
  class LightThemeApp implements ThemeApp{
 
-  static const Color primaryColor = Color(0xffffffff);
+  @override
+  Color primaryColor = const Color(0xffffffff);
 
-  static const Color secondColor =  Color(0xff000000);
+  @override
+  Color secondColor =  const Color(0xff000000);
 
   @override
   TextStyle textStyle18(BuildContext context) {
