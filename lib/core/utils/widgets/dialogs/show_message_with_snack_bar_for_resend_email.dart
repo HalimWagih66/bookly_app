@@ -3,7 +3,6 @@ import 'package:bookly_app/features/auth/log_in/manager/log_in_bloc/log_in_bloc.
 import 'package:bookly_app/features/auth/sign_up/data/repos/auth_repo.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import '../../../../main.dart';
 import 'build_message_resend_email.dart';
 
 ScaffoldFeatureController<SnackBar, SnackBarClosedReason>
