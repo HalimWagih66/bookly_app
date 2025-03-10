@@ -32,6 +32,7 @@ abstract class ThemeApp{
     return TextStyle(
           fontSize: getResponsiveFontSize(context, fontSize: 20),
           fontWeight: FontWeight.normal,
+        fontFamily: "GTSectra",
           color: primaryColor
       );
     }
@@ -71,7 +72,7 @@ abstract class ThemeApp{
      double responsiveFontSize = fontSize * scaleFactor;
 
      double lowerLimit = fontSize * .8;
-     double upperLimit = fontSize * 1.2;
+     double upperLimit = fontSize * 1.1;
      print("responsiveFontSize $responsiveFontSize");
      return responsiveFontSize.clamp(lowerLimit, upperLimit);
    }

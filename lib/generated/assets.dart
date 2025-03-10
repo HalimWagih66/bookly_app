@@ -4,9 +4,11 @@ class Assets {
 
   static const String authAppleLogo = 'assets/images/auth/apple-logo.png';
   static const String authGoogleLogo = 'assets/images/auth/google-logo.png';
-  static const String imagesOnBoardingImage1 = 'assets/images/on_boarding_image_1.png';
-  static const String imagesOnBoardingImage2 = 'assets/images/on_boarding_image_2.png';
-  static const String imagesOnBoardingImage3 = 'assets/images/on_boarding_image_3.png';
-  static const String imagesSplashScreen = 'assets/images/splash_screen.png';
+  static const String imagesLogoApp = 'assets/images/Logo-App.png';
+  static const String imagesScreenshot = 'assets/images/Screenshot.jpg';
+  static const String onBoardingOnBoardingImage1 = 'assets/images/on_boarding/on_boarding_image_1.png';
+  static const String onBoardingOnBoardingImage2 = 'assets/images/on_boarding/on_boarding_image_2.png';
+  static const String onBoardingOnBoardingImage3 = 'assets/images/on_boarding/on_boarding_image_3.png';
+  static const String splashScreenSplashScreen = 'assets/images/splash_screen/splash_screen.png';
 
 }

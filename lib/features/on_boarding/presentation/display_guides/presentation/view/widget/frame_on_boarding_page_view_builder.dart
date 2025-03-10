@@ -13,15 +13,15 @@ class OnBoardingPageViewBuilder extends StatelessWidget {
   final PageController pageController;
   final List<OnBoardingPageModel> items = const [
     OnBoardingPageModel(
-        image: Assets.imagesOnBoardingImage1,
+        image: Assets.onBoardingOnBoardingImage1,
         title: "Start now",
         desc: "Embark on your journey with books!"),
     OnBoardingPageModel(
-        image: Assets.imagesOnBoardingImage2,
+        image: Assets.onBoardingOnBoardingImage2,
         title: "A world of books at your fingertips!",
         desc: "Discover thousands of books in various fields, ready to read at any time."),
     OnBoardingPageModel(
-        image: Assets.imagesOnBoardingImage3,
+        image: Assets.onBoardingOnBoardingImage3,
         title: "Books to suit your taste",
         desc:
         "Get personalized recommendations based on your interests and favorite books."),
