@@ -1,9 +1,7 @@
 import 'package:flutter/material.dart';
 import 'best_seller_list_view.dart';
-import '../../../../../core/utils/app_bar/custom_app_bar.dart';
 import '../../../../../main.dart';
 import 'custom_app_bar.dart';
-import 'display_book_image.dart';
 import 'list_view_book_image.dart';
 
 class HomeViewBody extends StatelessWidget {
